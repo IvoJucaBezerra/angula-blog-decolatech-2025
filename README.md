@@ -1,4 +1,17 @@
-# AngularBlog
+# AngularBlog - Atualizado por IVO
+
+Fiz algumas alterações como desafio de projeto.
+
+1. Alterei a imagem e texto do filme do Homem de Ferro pela Imagem do novo Capitão América.
+2. Alterei também a /content/1 para receber a imagem e texto corretos. (Alteração no *dataFake.ts*)
+3. Mudei os links na parte superior da tela do blog para levar as minhas redes.
+4. Coloquei alguns efeitos simples quando passa o mouse por cima do item de Linkdln, Github e Instagram.
+
+
+
+![](https://github.com/IvoJucaBezerra/angula-blog-decolatech-2025/blob/main/gif/video-projeto-angular-blog-ezgif.com-video-to-gif-converter.gif)
+
+![](https://github.com/IvoJucaBezerra/angula-blog-decolatech-2025/blob/main/gif/video2-projeto-angular-blog-ezgif.com-video-to-gif-converter.gif)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
