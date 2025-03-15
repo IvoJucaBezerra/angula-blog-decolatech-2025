@@ -1,9 +1,9 @@
 export const dataFake = [
   {
     "id":"1",
-    "title": "NOVO HOMEM DE FERRO EM 3D",
-    "description": "marvel anuncia um novo filme do homem de ferro, confira",
-    "photoCover":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7F51FA9F6CBD9F0C9B1394B1CC0A6A842D07091318674E234CD33CBF7C28CDC3/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    "title": "NOVO CAPITÃO AMÉRICA",
+    "description": "Veja o novo Capitão América em ação, o novo filme promete ser um sucesso de bilheteria",
+    "photoCover":"https://recreio.com.br/media/_versions/2025/02/poster-capitao-america-1_widelg.jpg"
   },
   {
     "id":"2",

@@ -8,7 +8,7 @@ import {dataFake} from '../../data/dataFake'
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  photoCover:string = ""
+  photoCover:string = "https://recreio.com.br/media/_versions/2025/02/poster-capitao-america-1_widelg.jpg"
   contentTitle:string = ""
   contentDescription:string = ""
   private id:string | null = "0"

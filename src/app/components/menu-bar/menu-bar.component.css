@@ -1,12 +1,41 @@
-
-
-.container__menu-bar > ul{
+.container__menu-bar > ul {
   display: flex;
   flex-direction: row;
 }
 
-.container__menu-bar > ul > li{
+.container__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
 }
+
+.container__menu-bar > ul > li a {
+  position: relative;
+  text-decoration: none;
+  color: #c484b4; /* Cor do texto */
+}
+
+.container__menu-bar > ul > li a:hover {
+  color: #ff5733; /* Cor do texto ao passar o mouse */
+}
+
+.container__menu-bar > ul > li a::after {
+  content: attr(title); /* Usa o conteúdo do atributo 'title' */
+  position: absolute;
+  bottom: -25px; /* Abaixo do link */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.container__menu-bar > ul > li a:hover::after {
+  opacity: 1; /* Torna o tooltip visível ao passar o mouse */
+}
+
 
